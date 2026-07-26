@@ -10,7 +10,7 @@ scoop bucket add lyra https://github.com/lyra-viewer/scoop-lyra
 scoop install lyra-viewer
 ```
 
-Launch it from the Start Menu (**Lyra Viewer**) or from a terminal — the bucket
+Launch it from the Start Menu (**Lyra Viewer**) or from a terminal - the bucket
 also installs a `lyra` shim, so you can open a file directly:
 
 ```powershell
