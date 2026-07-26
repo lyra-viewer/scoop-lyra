@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
+    "version": "0.5.1",
+    "description": "High-performance, minimalist native image viewer for modern and professional formats (SDL3 + Skia, .NET 9).",
+    "homepage": "https://github.com/lyra-viewer/Lyra",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lyra-viewer/Lyra/releases/download/v0.5.1/LyraViewer-windows-x64.zip",
+            "hash": "12308e8c99d8cdc62ec61ef53b13b16b81c56bc2b264a875569eb79fe5c2fe50"
+        }
+    },
+    "bin": [
+        [
+            "LyraViewer.exe",
+            "lyra"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "LyraViewer.exe",
+            "Lyra Viewer"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lyra-viewer/Lyra/releases/download/v$version/LyraViewer-windows-x64.zip"
+            }
+        }
+    }
+}
