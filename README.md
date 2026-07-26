@@ -1,6 +1,6 @@
 # scoop-lyra
 
-A [Scoop](https://scoop.sh) bucket for [Lyra Viewer](https://github.com/lyra-viewer/Lyra) —
+A [Scoop](https://scoop.sh) bucket for [Lyra Viewer](https://github.com/lyra-viewer/Lyra) -
 a high-performance, minimalist native image viewer for Windows.
 
 ## Install
